@@ -1,0 +1,22 @@
+{
+  "seller": [
+    {
+      "name": "Sourav Gupta",
+      "email": "sourav@seller.com",
+      "password": "123",
+      "id": 1
+    },
+    {
+      "name": "Roshan Shaw",
+      "email": "roshan@seller.com",
+      "password": "123",
+      "id": 2
+    },
+    {
+      "name": "Priya Gupta",
+      "email": "priya@seller.in",
+      "password": "123",
+      "id": 3
+    }
+  ]
+}
