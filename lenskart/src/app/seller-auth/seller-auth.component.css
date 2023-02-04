@@ -7,8 +7,9 @@
     color: rgb(10, 76, 174);   
 }
 .auth-toggle-link{
-    color: rgb(10, 76, 174);   
+    color: rgb(249, 16, 40);   
     font-size: 14px;
     margin-top: 20px;
     text-align: left;
+    cursor: pointer;
 }

@@ -15,8 +15,22 @@ export class SellerAuthComponent implements OnInit {
     this.seller.reloadSeller()
   }
 
+  showLogin = false;
   signUp(data: signUp): void {
     this.seller.userSignUp(data);
+  }
+  login(data: signUp): void {
+    console.log(data);
+    
+  }
+  
+
+  openLoginForm(){
+    this.showLogin = true;
+  }
+
+  openSignupForm(){
+    this.showLogin = false;
   }
 
 }
