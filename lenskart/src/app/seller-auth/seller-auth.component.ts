@@ -20,11 +20,9 @@ export class SellerAuthComponent implements OnInit {
     this.seller.userSignUp(data);
   }
   login(data: signUp): void {
-    console.log(data);
-    
+    console.log(data); 
   }
   
-
   openLoginForm(){
     this.showLogin = true;
   }
